@@ -1,0 +1,166 @@
+.main{
+    display: flex;
+    border: 1px solid white;
+    padding: 5%;
+    box-shadow: 3px 3px 5px rgb(156, 155, 155);
+}
+#name, #email, #phone, #work, #password, #cpassword, #message{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+.row{
+    padding: 1%;
+}
+.signupimg{
+    margin: auto;
+}
+@media (max-width:800px) {
+    .main{
+        display: block;
+        box-shadow: none;
+    }
+    .form{
+        box-shadow: 3px 3px 5px rgb(156, 155, 155);
+        padding: 2%;
+    }
+    .signupimg{
+        margin: auto;
+    }
+    .img{
+        text-align: center;
+    }
+}
+.to-signup{
+    text-decoration: none;
+    color: black;
+}
+.login-in-signup{
+    text-align: center;
+}
+.to-signup:hover{
+    color: red;
+}
+.login-in-signup{
+    padding-bottom: 10%;
+}
+img{
+    display: block;
+}
+.box{
+    border: 1px solid white;
+    padding: 1% 6%;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgb(156, 155, 155);
+}
+.info-box{
+    display:flex;
+}
+.contact-form-title{
+    font-size: 2rem;
+    display: flex;
+}
+.contact-container{
+    border-radius: 25px;
+}
+.contact-detail{
+    display: flex;
+}
+.contact-input{
+    margin: 2%;
+}
+@media (max-width:800px) {
+    .box{
+        box-shadow: 3px 3px 5px rgb(156, 155, 155);
+        display: block;
+    }
+    .info-box, .contact-detail{
+        display:block;
+    }
+    .box{
+        margin: 5%;
+    }
+    .contact-input{
+        margin: 0% auto;
+    }
+}
+.home-page{
+    background: linear-gradient(90deg, rgb(205, 232, 240), rgb(245, 236, 236));
+    height: 82vh;
+    width: 100vw;
+}
+.home-div{
+    text-align: center;
+    padding-top: 35vh;
+}
+.home-heading{
+    font-size: 25px;
+}
+.home-text{
+    font-size: 40px;
+}
+
+@media screen and (max-width:800px) {
+    .home-page{
+        background: linear-gradient(90deg, rgb(205, 232, 240), rgb(245, 236, 236));
+        height: 88vh;
+        width: 100vw;
+    }
+    .home-heading{
+        font-size: 1rem;
+    }
+    .home-text{
+        font-size: 1.5rem;
+    }
+}
+.about-con{
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px rgb(156, 155, 155);
+    margin: 5%;
+}
+.pp{
+    height: 200px;
+    width: 180px;
+}
+.work{
+    color: rgb(59, 108, 232);
+}
+.work_link{
+    text-decoration: none;
+    color: black;
+}
+.work_link:hover{
+    color: red;
+}
+.lower{
+    display:flex;
+}
+@media screen and (max-width: 600px) {
+    .lower{
+        display:flex;
+    }
+}
+.errorpage-404{
+    font-size: 160px;
+    color: rgb(201, 244, 229);
+    z-index: 0;
+}
+.errorpage{
+    z-index: 2;
+    text-align: center;
+}
+.txt-404{
+    position: relative;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid rgb(0, 200, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(0, 200, 255);
+}
+.link:hover{
+    color: black;
+}
